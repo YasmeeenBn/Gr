@@ -15,6 +15,7 @@
 .city_metropole {
   flex-grow: 1;
   width: 50vw;
+  margin-right: 20px;
 }
 .city_outremer {
   flex-grow: 1;
