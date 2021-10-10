@@ -38,28 +38,3 @@ function App() {
 }
 
 export default App;
-{
-  /* <div className="container">
-          <Container maxWidth="lg">
-            <h1>Je recherche...</h1>
-          </Container>
-          <div className="container2">
-            {" "}
-            <Container maxWidth="lg">
-              <h1 className="h11">Les villes...</h1>
-            </Container>
-          </div>
-        </div>  */
-}
-{
-  /* <div className="col-12 col-md-6 col-lg-4 my-4">
-            <Card title="Villes d'outre-mer" />
-          </div> */
-}
-{
-  /* <div className="row">
-          <div className="col-md-6 col-sm-6">
-            <Card title="Villes d'outre-mer" />
-          </div>
-        </div> */
-}
