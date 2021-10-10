@@ -28,8 +28,6 @@ const Card = ({ title, cities }) => {
           {`${nbrCities} correspondants au texte saisi`}
         </div>
       </div>
-      <br />
-      <br />
       <div className="container_city_item">{renderCites()}</div>
     </div>
   );
