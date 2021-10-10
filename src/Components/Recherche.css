@@ -14,7 +14,8 @@
 }
 
 .search_input_container {
-  flex-grow: 6;
+  flex-grow: 8;
+  margin-right: 30px;
 }
 .search_input {
   width: 100%;
