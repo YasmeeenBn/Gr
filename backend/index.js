@@ -11,8 +11,6 @@ app.use(bodyParser.json());
 
 app.use("/cities", cityRoutes);
 
-
-
 app.listen(process.env.PORT, () =>
   console.log(`server is running in port ${process.env.PORT}`)
 );

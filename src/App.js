@@ -14,8 +14,8 @@ function App() {
     try {
       const cities = await axios.get(`${url}/cities/metro/${keyword}`);
       setMetropoleCities(cities.data);
-      // const citiesOutre = await axios.get(`${url}/cities/outre/${keyword}`);
-      // setOutremerCities(citiesOutre.data);
+      const citiesOutre = await axios.get(`${url}/cities/outre/${keyword}`);
+      setOutremerCities(citiesOutre.data);
     } catch (error) {
       console.log(error);
     }
