@@ -1,0 +1,91 @@
+.container3 {
+  width: 90%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 20px;
+  background: #d2e5e9;
+  border-radius: 10px;
+  min-height: 90vh;
+}
+
+.text {
+  width: 600px;
+  height: 61px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+.card {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 30;
+  width: 540px;
+  border-radius: 7px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 90%;
+  }
+}
+.smallCard {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 30;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  background-color: #161c29a1;
+}
+
+.city__container {
+  background: rgba(22, 28, 41, 0.63);
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 33%;
+  margin: 5px;
+  justify-content: space-between;
+}
+
+.container_city_item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.city_zip {
+  margin-left: auto;
+  order: 3;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #8c8f9a;
+}
+.city_name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
